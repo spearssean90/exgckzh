@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：开发记录：短信发送服务封装，失败重试策略
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://wap.uhmuit.asia/blog/3706847.sHtMl
+
+原标题：WebSocket 断线重连稳定优化
+简介：golang 单例模式实现几种方式，Go 单例模式多种实现对比，sync.Once 等方式，实现全局唯一实例。
+ | 原文链接：http://wap.uhmuit.asia/blog/2039242.sHtMl
+
+原标题：系统文件描述符上限调大
+简介：golang 信号捕获程序退出处理，Go 捕获操作系统信号，做资源回收，控制程序退出流程。
+ | 原文链接：http://wap.uhmuit.asia/blog/8479060.sHtMl
+
+原标题：golang kafka offset 提交策略
+简介：golang staticcheck 静态代码分析，staticcheck 深度静态检查，发现代码错误、性能问题、风格问题。
+ | 原文链接：http://wap.uhmuit.asia/blog/6371474.sHtMl
+
+原标题：实战项目：本地模拟磁盘IO高负载观察服务行为
+简介：golang gorm 子查询嵌套查询写法，Gorm 实现子查询、嵌套查询，复杂条件查询简化代码编写。
+ | 原文链接：http://wap.uhmuit.asia/blog/6201815.sHtMl
+
+原标题：golang 系统设计定时任务动态启停配置方案
+简介：分布式锁失效问题排查修复，分析分布式锁失效场景，修复锁超时、续期问题，保证锁逻辑可靠。
+ | 原文链接：http://wap.uhmuit.asia/blog/1716818.sHtMl
+
+原标题：golang 系统设计 protobuf 可选字段使用技巧
+简介：Docker 容器入门镜像实操教程，介绍 Docker 基础概念，演示镜像拉取、容器启停，帮助新手建立容器化开发认知。
+ | 原文链接：http://wap.uhmuit.asia/blog/0606948.sHtMl
+
+原标题：入门实践：项目配置文件多环境管理方案
+简介：前端虚拟列表大数据渲染优化，实现虚拟滚动列表，只渲染可视区域 DOM，上万条数据页面流畅渲染。
+ | 原文链接：http://wap.uhmuit.asia/blog/9694707.sHtMl
+
+原标题：开发复盘：大列表内存分批读取避免OOM实践
+简介：OAuth2 第三方登录服务搭建，搭建 OAuth2 服务，支持第三方账号登录，实现授权登录能力。
+ | 原文链接：http://wap.uhmuit.asia/blog/4938169.sHtMl
+
+原标题：效率笔记：GitWorkflow团队协作规范模板
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://wap.uhmuit.asia/blog/2845160.sHtMl
+
+原标题：OpenSource：开源项目版本发布CHANGELOG编写
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：http://wap.uhmuit.asia/blog/5968463.sHtMl
+
+原标题：golang 系统设计消息 partition 数量设置思路
+简介：golang 性能压测 wr 工具实操指南，wr 压测工具对 Go 接口压测，观察 QPS 延迟，定位接口性能瓶颈。
+ | 原文链接：http://wap.uhmuit.asia/blog/4190693.sHtMl
+
+原标题：golang 接口请求日志记录中间件
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://wap.uhmuit.asia/blog/1712838.sHtMl
+
+原标题：从零搭建简单的身份登录模拟示例
+简介：golang go 项目依赖冲突解决完整思路，定位冲突包，replace、exclude、升级降级解决版本冲突。
+ | 原文链接：http://wap.uhmuit.asia/blog/8581715.sHtMl
+
+原标题：程序性能指标 CPU 内存监控
+简介：前端打包产物体积压缩优化，多手段压缩前端打包产物，移除无用代码，压缩资源，提升页面加载速度。
+ | 原文链接：http://wap.uhmuit.asia/blog/7291929.sHtMl
+
+原标题：golang docker 部署 redis 配置要点
+简介：golang grpc 客户端流上传数据，客户端流式请求，客户端分批上传数据到服务端，适合大文件传输。
+ | 原文链接：http://wap.uhmuit.asia/blog/1827360.sHtMl
+
+原标题：RPC 报文大小上限调优大请求
+简介：大事务拆分回滚日志暴涨解决，拆分大型数据库事务，减少回滚日志生成量，避免磁盘被回滚日志占满。
+ | 原文链接：http://wap.uhmuit.asia/blog/3967460.sHtMl
+
+原标题：OpenSource：开源项目风险评估依赖安全检查
+简介：golang etcd key 监听变更 watch 机制，watch 监听 etcd 键变化，配置变更实时感知，实现配置热更新。
+ | 原文链接：http://wap.uhmuit.asia/blog/1534029.sHtMl
+
+原标题：golang 系统设计事务消息 rocketmq 简单原理
+简介：golang uuid 生成多种版本实现，生成 uuid v1 v4，生成唯一标识，业务用于单据编号场景。
+ | 原文链接：http://wap.uhmuit.asia/blog/2938461.sHtMl
+
+原标题：golang kafka 核心概念分区副本
+简介：golang docker compose 开发环境 go 服务，docker compose 编排 go 服务与中间件，本地一键拉起整套开发环境。
+ | 原文链接：http://wap.uhmuit.asia/blog/3046582.sHtMl
+
+原标题：安全实践：最小权限原则数据库账号管控
+简介：golang csv 读写批量数据处理，Go 读写 CSV 文件，批量导入导出业务数据，处理 CSV 格式解析。
+ | 原文链接：http://wap.uhmuit.asia/blog/5267912.sHtMl
+
+原标题：golang 系统设计测试环境预发环境生产环境隔离
+简介：golang 路径处理 filepath 包规范写法，使用 filepath 处理路径拼接分割，自动适配操作系统路径分隔符。
+ | 原文链接：http://wap.uhmuit.asia/blog/2502470.sHtMl
+
+原标题：排坑：Git提交历史混乱，如何清理错误提交
+简介：golang k8s informer 机制原理理解，informer 监听 k8s 资源变更，本地缓存，减少 apiserver 压力。
+ | 原文链接：http://wap.uhmuit.asia/blog/2599359.sHtMl
+
+原标题：golang redis 缓存预热实现思路
+简介：全局异常处理器接口返回统一，接入全局异常捕获，拦截业务全部异常，对外输出统一格式返回值。
+ | 原文链接：http://wap.uhmuit.asia/blog/7080693.sHtMl
+
+原标题：Debug日志：生产环境偶发空指针异常排查
+简介：react hooks 常见陷阱避坑指南，梳理 React Hooks 高频踩坑点，依赖数组、闭包陷阱，写出稳定组件。
+ | 原文链接：http://wap.uhmuit.asia/blog/3856162.sHtMl
+
+原标题：golang http 请求重试封装工具
+简介：提交第一个开源 PR 完整流程，Fork 项目、修改代码、提交 Pull Request，讲解 PR 规范，提升合并通过率。
+ | 原文链接：http://wap.uhmuit.asia/blog/0690695.sHtMl
+
+原标题：golang ci 流水线制品仓库上传下载
+简介：golang golangci‑lint 静态代码检查配置，golangci‑lint 静态检查，代码规范检测，提前发现代码隐患。
+ | 原文链接：http://wap.uhmuit.asia/blog/7312807.sHtMl
+
+原标题：golang redis 网络超时参数调优
+简介：系统时间同步定时任务偏移，同步服务器系统时间，防止时间偏移，避免定时任务执行时间错乱。
+ | 原文链接：http://wap.uhmuit.asia/blog/3049705.sHtMl
+
+原标题：golang 系统设计服务优雅停机完整流程
+简介：golang go race 竞态检测工具，‑race 检测数据竞争，编译运行检测并发读写数据竞争 bug。
+ | 原文链接：http://wap.uhmuit.asia/blog/8599581.sHtMl
+
+原标题：golang 系统设计数据库版本迁移回滚方案
+简介：golang 日志级别动态调整热更新，不用重启程序动态修改日志输出级别，线上调试排查问题十分方便。
+ | 原文链接：http://wap.uhmuit.asia/blog/1712706.sHtMl
+
+原标题：调优方案：gzip压缩开启降低网络传输体积
+简介：nodejs 定时任务生产环境避坑，Node 定时任务线上踩坑汇总，集群重复执行、任务阻塞等问题解决方案。
+ | 原文链接：http://wap.uhmuit.asia/blog/5182596.sHtMl
+
+原标题：RPC 接口字段增减兼容处理
+简介：golang md5 sha 加密工具实现，实现 MD5、SHA 哈希工具，做数据摘要，用于签名校验场景。
+ | 原文链接：http://wap.uhmuit.asia/blog/7372493.sHtMl
+
+原标题：实战项目：WSL开发环境完整配置实操
+简介：MySQL 慢查询索引优化实战，抓取慢查询 SQL，分析执行计划，新增或者调整索引，提升 SQL 执行速度。
+ | 原文链接：http://wap.uhmuit.asia/blog/8482537.sHtMl
+
+原标题：golang kafka 消费者组原理讲解
+简介：golang sort 稳定排序 Stable，稳定排序保留相等元素原有顺序，业务需要稳定排序场景。
+ | 原文链接：http://wap.uhmuit.asia/blog/6594726.sHtMl
+
+原标题：golang 系统设计布隆过滤器原理与落地
+简介：API 接口调试与异常处理实战，覆盖接口请求、参数组装、错误捕获，提供调试思路，高效定位接口返回异常问题。
+ | 原文链接：http://wap.uhmuit.asia/blog/9634147.sHtMl
+
+原标题：快速入门异步编程基础模型
+简介：golang 响应 body 流式返回大数据，http 流式输出数据，边生成边返回，无需在内存组装完整返回结果。
+ | 原文链接：http://wap.uhmuit.asia/blog/5149282.sHtMl
+
+原标题：实战项目：Nginx限速、限流、防爬虫配置实践
+简介：golang time 定时器重置 Reset 正确用法，Timer Reset 调用前提，避免 Reset 带来逻辑错误。
+ | 原文链接：http://wap.uhmuit.asia/blog/5958365.sHtMl
+
+原标题：golang 优雅停机服务关闭实现
+简介：golang 程序崩溃 core dump 生成调试，开启 core dump，程序崩溃生成转储文件，事后分析崩溃原因。
+ | 原文链接：http://wap.uhmuit.asia/blog/9627020.sHtMl
+
+原标题：提交第一个开源 PR 完整流程
+简介：golang pdf 生成 go 服务端生成 pdf，服务端动态生成 pdf 报表文件，直接输出下载给到前端。
+ | 原文链接：http://wap.uhmuit.asia/blog/7482504.sHtMl
+
+原标题：golang jwt 过期刷新 token 实现
+简介：golang defer 闭包变量捕获坑，defer 捕获循环变量引用，变量被复写，理解闭包变量捕获规则。
+ | 原文链接：http://wap.uhmuit.asia/blog/8594818.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：Practice：模拟主从延迟业务兼容方案实践
+简介：golang redis 事务 multi exec 使用，Redis 事务 multi exec 实现批量命令原子执行，理解 redis 事务隔离特性。
+ | 原文链接：http://wap.uhmuit.asia/blog/9617160.sHtMl
+
+原标题：golang 系统设计日志轮转切割防止磁盘占满
+简介：css 动画性能优化 GPU 加速，优化 CSS 动画，使用 GPU 加速属性，避免动画过程页面卡顿掉帧。
+ | 原文链接：http://wap.uhmuit.asia/blog/4261404.sHtMl
+
+原标题：Debug：多线程共享可变变量产生脏数据
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：http://wap.uhmuit.asia/blog/7080696.sHtMl
+
+原标题：Troubleshooting：防火墙安全组拦截访问请求
+简介：golang grafana 面板 go 业务指标可视化，prometheus 指标对接 grafana，配置监控面板可视化业务状态。
+ | 原文链接：http://wap.uhmuit.asia/blog/2827959.sHtMl
+
+原标题：部署复盘：静态站点部署CDN完整流程
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://wap.uhmuit.asia/blog/8524137.sHtMl
+
+原标题：排错：多实例部署session共享失效登录失效
+简介：开源项目本地运行排错完整清单，汇总开源项目拉取后运行失败各类问题，给出排查思路，快速解决本地启动异常。
+ | 原文链接：http://wap.uhmuit.asia/blog/1783615.sHtMl
+
+原标题：模拟登录鉴权权限判断示例
+简介：golang 环境变量读取与类型转换，读取系统环境变量，做类型转换默认值处理，适配多环境部署。
+ | 原文链接：http://wap.uhmuit.asia/blog/7483826.sHtMl
+
+原标题：模拟登录鉴权权限判断示例
+简介：golang 时间时区处理避坑指南，Go 时间时区常见坑，时区转换，时间比较，规避时间逻辑错误。
+ | 原文链接：http://wap.uhmuit.asia/blog/6594685.sHtMl
+
+原标题：简易日志收集集中管理方案
+简介：时间同步修复令牌提前过期，服务器时间不同步导致 JWT 令牌提前过期，同步系统时间解决异常。
+ | 原文链接：http://wap.uhmuit.asia/blog/2938160.sHtMl
+
+原标题：异步任务堆积消费能力优化
+简介：golang 开发环境快速搭建指南，快速完成 Golang 开发环境配置，工具链安装，环境变量设置，准备开发。
+ | 原文链接：http://wap.uhmuit.asia/blog/3059393.sHtMl
+
+原标题：golang websocket 服务端开发
+简介：golang 程序崩溃 core dump 生成调试，开启 core dump，程序崩溃生成转储文件，事后分析崩溃原因。
+ | 原文链接：http://wap.uhmuit.asia/blog/2038141.sHtMl
+
+原标题：golang mysql 分表自增 id 方案
+简介：分布式锁失效问题排查修复，分析分布式锁失效场景，修复锁超时、续期问题，保证锁逻辑可靠。
+ | 原文链接：http://wap.uhmuit.asia/blog/5057385.sHtMl
+
+原标题：golang 系统设计代码安全审计简单思路
+简介：golang 数据库连接耗尽排查思路，监控连接池状态，定位连接未归还，解决连接耗尽报错。
+ | 原文链接：http://wap.uhmuit.asia/blog/3968060.sHtMl
+
+原标题：Practice：从零实现轻量后端接口服务完整实践
+简介：golang 布隆过滤器实现去重，Go 实现布隆过滤器，海量数据去重，节省内存开销，提升判断效率。
+ | 原文链接：http://wap.uhmuit.asia/blog/0413405.sHtMl
+
+原标题：golang 系统设计 commit 提交规范约定
+简介：大文件导出内存溢出防护，流式处理大文件导出，边读边写，不把全部数据加载内存，规避 OOM。
+ | 原文链接：http://wap.uhmuit.asia/blog/8413928.sHtMl
+
+原标题：效率笔记：终端开发工具提升日常调试效率
+简介：golang go 终端 pty 伪终端操作，pty 启动子进程，模拟终端交互，实现交互式命令调用。
+ | 原文链接：http://wap.uhmuit.asia/blog/9605835.sHtMl
+
+原标题：golang mysql 存储过程简单使用
+简介：文件描述符优化进程卡死修复，及时关闭文件句柄，控制打开文件数量，解决文件句柄耗尽进程卡死。
+ | 原文链接：http://wap.uhmuit.asia/blog/5292807.sHtMl
+
+原标题：多版本开发环境共存配置
+简介：API 大版本不兼容平滑迁移，API 版本迭代不兼容旧接口，设计平滑迁移方案，逐步完成版本切换。
+ | 原文链接：http://wap.uhmuit.asia/blog/8483925.sHtMl
+
+原标题：业务错误码完整落地实践
+简介：项目构建脚本编译打包解析，解读项目构建脚本，理清编译、压缩、资源复制流程，理解打包后产物如何生成。
+ | 原文链接：http://wap.uhmuit.asia/blog/5394795.sHtMl
+
+原标题：踩坑记录：分页逻辑错误造成数据重复输出
+简介：golang go 程序抢占调度理解，理解 go 抢占式调度原理，长循环阻塞调度，造成协程调度延迟。
+ | 原文链接：http://wap.uhmuit.asia/blog/5150172.sHtMl
+
+原标题：golang 系统设计网关缓存静态资源实现思路
+简介：并发数据覆盖加锁安全处理，多线程并发修改同一数据，增加锁机制，防止并发覆盖丢失更新数据。
+ | 原文链接：http://wap.uhmuit.asia/blog/2824628.sHtMl
+
+原标题：实践：接口参数自动校验业务落地实践
+简介：golang go 程序守护进程实现思路，go 程序不做 daemon 化，依靠 systemd pm2 k8s 实现进程守护。
+ | 原文链接：http://wap.uhmuit.asia/blog/5260425.sHtMl
+
+原标题：golang 系统设计定时任务动态启停配置方案
+简介：golang errors.Is errors.As 错误判断，判断是否为指定错误类型，提取自定义错误信息，错误处理进阶。
+ | 原文链接：http://wap.uhmuit.asia/blog/4024089.sHtMl
+
+原标题：Hands‑on：简易消息推送服务开发实践
+简介：CLI 工具进度条交互效果开发，在命令行工具增加进度条展示，直观反馈任务执行进度，优化命令行体验。
+ | 原文链接：http://wap.uhmuit.asia/blog/3745257.sHtMl
+
+原标题：golang 系统设计接口不兼容平滑迁移方案
+简介：golang go 符号表与调试信息取舍，区分生产环境调试符号取舍，平衡镜像体积与故障排查能力。
+ | 原文链接：http://wap.uhmuit.asia/blog/4049503.sHtMl
+
+原标题：golang 系统设计结构化日志字段规范约定
+简介：golang go url url.Values 参数编码，url.Values 构建 url 查询参数，自动处理参数 url 编码。
+ | 原文链接：http://wap.uhmuit.asia/blog/1816957.sHtMl
+
+原标题：golang 系统设计读写穿透更新缓存几种方案
+简介：golang nats jetstream 持久消息队列，nats jetstream 持久化消息，保证消息不丢失，实现可靠消费。
+ | 原文链接：http://wap.uhmuit.asia/blog/5383917.sHtMl
+
+原标题：方案设计：接口版本管理架构向前兼容策略
+简介：golang slice 切片底层原理与坑点，切片扩容、截取、底层数组共享，规避切片修改互相影响数据。
+ | 原文链接：http://wap.uhmuit.asia/blog/6201706.sHtMl
+
+原标题：零基础理解缓存基础原理与简单使用
+简介：前端权限路由动态生成实现，根据后端返回权限，动态生成前端路由菜单，实现页面权限控制。
+ | 原文链接：http://wap.uhmuit.asia/blog/2938179.sHtMl
+
+原标题：排错：静态资源CDN缓存未刷新旧资源持续返回
+简介：golang 分布式锁防死锁实现要点，锁超时、续期、锁持有者校验，避免锁死锁，保障分布式锁可靠性。
+ | 原文链接：http://wap.uhmuit.asia/blog/6268613.sHtMl
+
+原标题：Practice：从零实现轻量后端接口服务完整实践
+简介：JWT 工具封装令牌刷新过期，封装 JWT 工具类，实现令牌生成、校验、过期刷新整套令牌管理逻辑。
+ | 原文链接：http://wap.uhmuit.asia/blog/8489584.sHtMl
+
+原标题：golang 系统设计配置多环境本地开发适配方案
+简介：golang 模板函数自定义拓展，自定义 template 模板函数，在 html 模板调用自定义逻辑处理数据。
+ | 原文链接：http://wap.uhmuit.asia/blog/5967351.sHtMl
+
+原标题：golang 系统设计代码评审高效沟通原则思路
+简介：golang regexp 正则捕获分组提取数据，正则捕获分组提取子匹配内容，拿到需要业务字段。
+ | 原文链接：http://wap.uhmuit.asia/blog/6260694.sHtMl
+
+原标题：前端国际化多语言方案落地
+简介：golang 数据库连接池泄露检测逻辑，监控连接池状态，检测连接长时间未归还，告警连接泄漏问题。
+ | 原文链接：http://wap.uhmuit.asia/blog/9502025.sHtMl
+
+原标题：入门实践：Git分支创建切换合并完整演示
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://wap.uhmuit.asia/blog/0691706.sHtMl
+
+原标题：快速上手调试工具定位简单代码错误
+简介：golang 文件上传下载接口开发，Go 开发文件上传下载接口，校验文件，处理文件读写存储逻辑。
+ | 原文链接：http://wap.uhmuit.asia/blog/5180584.sHtMl
+
+原标题：文件批量导入导出功能实现
+简介：golang go 泛型约束与类型集合，泛型 type set 约束，限制泛型支持类型，写出安全泛型代码。
+ | 原文链接：http://wap.uhmuit.asia/blog/0935240.sHtMl
+
+原标题：调优方案：消息批量消费提升MQ处理吞吐量
+简介：消息队列重复消费业务处理，实现消息消费幂等，处理重复投递消息，保证多次消费业务结果一致。
+ | 原文链接：http://wap.uhmuit.asia/blog/4049172.sHtMl
+
+原标题：golang 系统设计 mq 故障降级业务策略
+简介：golang html 模板渲染简单示例，Go HTML 模板渲染，服务端渲染页面，填充数据输出 HTML 页面。
+ | 原文链接：http://wap.uhmuit.asia/blog/9601624.sHtMl
+
+原标题：golang prometheus 指标暴露实现
+简介：golang redis pipeline 批量操作，使用 Redis Pipeline 批量执行多条命令，减少网络往返，提升批量操作性能。
+ | 原文链接：http://wap.uhmuit.asia/blog/5149171.sHtMl
+
+三、实战开发｜Practice
+原标题：Hands‑on：简易短链接服务完整开发实践
+简介：golang 内存缓存简单实现方案，Go 实现进程内简易内存缓存，本地缓存热点数据，减少远程调用。
+ | 原文链接：http://wap.uhmuit.asia/blog/6304137.sHtMl
+
+原标题：golang http client 连接池调优
+简介：golang 容器信号转发处理问题修复，docker/k8s 正确转发 SIGTERM 信号，保证 go 程序收到信号优雅退出。
+ | 原文链接：http://wap.uhmuit.asia/blog/1572537.sHtMl
+
+原标题：安全笔记：XSS跨站脚本攻击防御落地实践
+简介：golang 信号触发配置重载实践，收到 SIGUSR1 信号重新加载配置，线上无需重启刷新配置。
+ | 原文链接：http://wap.uhmuit.asia/blog/5278460.sHtMl
+
+原标题：golang 配置热更新不重启服务
+简介：golang go 版本管理 go install 安装工具，go install 安装指定版本 go 工具，管理本地 go 工具版本。
+ | 原文链接：http://wap.uhmuit.asia/blog/7271505.sHtMl
+
+原标题：HTTPS 证书过期更新操作
+简介：golang trace 可视化分析协程阻塞，使用 trace 网页 UI，定位协程阻塞、系统调用阻塞、锁等待。
+ | 原文链接：http://wap.uhmuit.asia/blog/8594736.sHtMl
+
+原标题：golang 系统设计 git 钩子自动化校验实现
+简介：golang math 包常用数学函数，绝对值取整平方根三角函数，业务数学计算工具。
+ | 原文链接：http://wap.uhmuit.asia/blog/4150363.sHtMl
+
+原标题：golang 系统设计 cpu 高占用排查步骤
+简介：golang uuid 生成多种版本实现，生成 uuid v1 v4，生成唯一标识，业务用于单据编号场景。
+ | 原文链接：http://wap.uhmuit.asia/blog/3605847.sHtMl
+
+原标题：新手避坑：第一次提交GitHub项目完整流程
+简介：Docker 容器时区错误修复方案，修复 Docker 容器内部时区偏差，解决容器内时间不对引发业务逻辑异常。
+ | 原文链接：http://wap.uhmuit.asia/blog/7372585.sHtMl
+
+原标题：golang consul 服务发现简单示例
+简介：数据库连接及时关闭连接泄漏，确保数据库连接使用完毕释放归还连接池，杜绝连接泄漏耗尽连接。
+ | 原文链接：http://wap.uhmuit.asia/blog/2857362.sHtMl
+
+原标题：golang k8s 监控 prometheus 部署
+简介：golang go 模板缓存预编译模板，预编译 html 模板，程序启动加载，避免每次请求解析模板损耗性能。
+ | 原文链接：http://wap.uhmuit.asia/blog/4137835.sHtMl
+
+原标题：Troubleshoot：跨域偶现失败难以复现问题
+简介：golang go embed 嵌入静态资源文件，使用 go embed 把静态文件编译进二进制，单文件部署携带静态资源。
+ | 原文链接：http://wap.uhmuit.asia/blog/7480248.sHtMl
+
+原标题：序列化版本不一致解析失败
+简介：golang 负载均衡轮询加权轮询实现，手写负载均衡算法，轮询、加权轮询分发请求到后端节点。
+ | 原文链接：http://wap.uhmuit.asia/blog/6203836.sHtMl
+
+原标题：数据库分表路由写入分片修正
+简介：golang 自定义 pprof 扩展业务指标，扩展 pprof，输出业务自定义指标，结合性能数据分析业务状态。
+ | 原文链接：http://wap.uhmuit.asia/blog/8180514.sHtMl
+
+原标题：设计思考：缓存分层架构设计与失效处理策略
+简介：golang 后端节点健康检查机制实现，定时探测后端节点状态，自动剔除故障节点，保障转发可用。
+ | 原文链接：http://wap.uhmuit.asia/blog/2645716.sHtMl
+
+原标题：安全笔记：依赖包漏洞检测供应链安全
+简介：极简 API 网关路由转发实现，开发极简网关服务，完成请求路由转发，理解网关基础实现原理。
+ | 原文链接：http://wap.uhmuit.asia/blog/7379147.sHtMl
+
+原标题：复盘总结：接口重构兼容旧版本改造复盘
+简介：golang raw socket 底层网络报文收发，raw socket 收发原始网络报文，做网络抓包数据包处理。
+ | 原文链接：http://wap.uhmuit.asia/blog/8485737.sHtMl
+
+原标题：Troubleshooting：数据库索引失效，查询性能暴跌
+简介：golang 错误栈捕获打印方案，捕获错误完整调用堆栈，线上日志输出堆栈，快速定位错误发生代码位置。
+ | 原文链接：http://wap.uhmuit.asia/blog/4040182.sHtMl
+
+原标题：安全复盘：业务登录暴力破解防护完整方案
+简介：DNS 解析异常第三方调用故障，排查 DNS 解析故障，修复域名解析，恢复第三方接口网络调用。
+ | 原文链接：http://wap.uhmuit.asia/blog/5102794.sHtMl
+
+原标题：实战项目：实现简单缓存服务缓存穿透击穿防护
+简介：golang rsa 公钥加密私钥解密，rsa 非对称加密，大文件分块加密，处理非对称加密长度限制。
+ | 原文链接：http://wap.uhmuit.asia/blog/2826960.sHtMl
+
+原标题：性能复盘：慢SQL定位、分析、改写完整案例
+简介：golang 半关闭 tcp 连接 shutdown，tcp 连接 shutdown 半关闭，单向关闭读或者写，理解 tcp 关闭流程。
+ | 原文链接：http://wap.uhmuit.asia/blog/1703839.sHtMl
+
+原标题：服务健康检查告警监控体系
+简介：数值类型溢出错乱问题修复，选择合适数值存储类型，处理数值溢出，避免数据存储错乱结果异常。
+ | 原文链接：http://wap.uhmuit.asia/blog/1858241.sHtMl
+
+原标题：前端防抖节流高频事件处理
+简介：golang sort 切片排序自定义 less，sort.Slice 切片快速排序，自定义 less 函数实现业务排序。
+ | 原文链接：http://wap.uhmuit.asia/blog/0305048.sHtMl
+
+原标题：Issue：Docker网络模式选择错误容器互通失败
+简介：golang defer 执行顺序与坑点，defer 后进先出，循环内部 defer 陷阱，资源释放正确写法。
+ | 原文链接：http://wap.uhmuit.asia/blog/9517948.sHtMl
+
+原标题：站内邮件消息通知功能开发
+简介：golang go mod why 查询依赖引入原因，go mod why 查询为什么引入某个包，理清依赖来源。
+ | 原文链接：http://wap.uhmuit.asia/blog/3268373.sHtMl
+
+原标题：项目实践：分布式会话Redis存储落地实践
+简介：内存泄漏定位分析完整流程，分享内存泄漏排查步骤，定位没有释放的对象，解决内存持续上涨问题。
+ | 原文链接：http://wap.uhmuit.asia/blog/6301585.sHtMl
+
+原标题：性能复盘：锁等待严重业务逻辑优化记录
+简介：golang go 项目 CI github actions 配置，github actions 实现 go 项目 ci，自动测试、代码检查、编译打包镜像。
+ | 原文链接：http://wap.uhmuit.asia/blog/2828070.sHtMl
+
+原标题：golang es 映射 mapping 设计避坑
+简介：Docker 容器网络不通排查，排查容器网络模式、端口映射、防火墙，解决容器之间、容器外部网络不通。
+ | 原文链接：http://wap.uhmuit.asia/blog/8412807.sHtMl
+
+原标题：请求工具封装统一异常处理
+简介：golang 跨域处理中间件编写，Gin 跨域中间件开发，处理预检 OPTIONS 请求，解决浏览器跨域报错。
+ | 原文链接：http://wap.uhmuit.asia/blog/8489471.sHtMl
+
+原标题：HelloDocker：编写你的第一个Dockerfile
+简介：golang go 服务日志输出 journald，systemd journald 接收程序 stdout 日志，统一管理服务日志。
+ | 原文链接：http://wap.uhmuit.asia/blog/0606242.sHtMl
+
+原标题：Troubleshooting：数据库索引失效，查询性能暴跌
+简介：golang go test 单元测试命令参数详解，gotest 参数覆盖率，指定测试用例，跳过测试，单元测试命令实操。
+ | 原文链接：http://wap.uhmuit.asia/blog/3037274.sHtMl
+
+原标题：进程线程并发基础概念讲解
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：http://wap.uhmuit.asia/blog/1856066.sHtMl
+
+原标题：开发记录：敏感数据加密存储解密业务实践
+简介：Git 子模块更新代码不全修复，正确更新 Git 子模块，拉取子模块完整代码，解决子模块目录为空问题。
+ | 原文链接：http://wap.uhmuit.asia/blog/4788967.sHtMl
+
+原标题：项目脚手架模板生成工具
+简介：项目目录结构规范化最佳实践，梳理源码、配置、静态资源目录划分，规范项目布局，提升代码可读性和可维护性。
+ | 原文链接：http://wap.uhmuit.asia/blog/2678902.sHtMl
+
+原标题：Performance：避免内存拷贝，大对象处理优化
+简介：内存溢出问题现象识别排查，识别内存溢出现象，梳理排查方向，定位内存持续上涨引发服务崩溃问题。
+ | 原文链接：http://wap.uhmuit.asia/blog/3783114.sHtMl
+
+原标题：Issue：日志疯狂打日志快速占满磁盘空间
+简介：nodejs 流处理大文件不占内存，使用 Node.js 流处理超大文件，边读边写，不需要全部加载进内存。
+ | 原文链接：http://wap.uhmuit.asia/blog/5261585.sHtMl
+
+原标题：安全复盘：Nginx配置不当带来的安全风险
+简介：日志输出规范防止磁盘爆满，控制日志输出量，配置日志切割轮转，避免日志文件无限增长占满磁盘。
+ | 原文链接：http://wap.uhmuit.asia/blog/1726958.sHtMl
+
+原标题：eslint prettier 代码规范落地
+简介：golang 接口限流中间件开发，Gin 开发限流中间件，接口层实现访问频率限制，防护接口流量。
+ | 原文链接：http://wap.uhmuit.asia/blog/1816251.sHtMl
+
+原标题：实践：API接口文档自动导出离线文档实践
+简介：golang httptest 模拟 http 请求单元测试，httptest 模拟 http 请求，测试 http handler 逻辑不用启动服务。
+ | 原文链接：http://wap.uhmuit.asia/blog/0413920.sHtMl
+
+原标题：Hands‑on：shell脚本批量自动化运维小工具
+简介：Nginx 缓冲区调优大文件上传，调大 Nginx 请求缓冲区，支持客户端上传大体积文件，避免上传被截断。
+ | 原文链接：http://wap.uhmuit.asia/blog/4045160.sHtMl
+
+原标题：Security：密码存储哈希加盐最佳实践
+简介：golang feishu 飞书机器人消息发送，调用飞书 webhook 机器人，发送文本卡片消息，实现业务告警通知。
+ | 原文链接：http://wap.uhmuit.asia/blog/4072804.sHtMl
+
+四、架构设计｜Architecture
+原标题：日志敏感信息脱敏泄露防护
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：http://wap.uhmuit.asia/blog/5936805.sHtMl
+
+原标题：部署复盘：金丝雀发布流量切分实操方案
+简介：golang os/exec 安全执行外部命令，规避命令注入漏洞，参数分离，禁止拼接命令字符串执行。
+ | 原文链接：http://wap.uhmuit.asia/blog/0480147.sHtMl
+
+原标题：golang 系统设计开源项目 issue pr 模板编写
+简介：golang crypto 密码学最佳实践，go crypto 包加密签名，规避不安全算法，使用安全密码套件。
+ | 原文链接：http://wap.uhmuit.asia/blog/5260392.sHtMl
+
+原标题：文件锁正确使用避免死锁
+简介：正则表达式优化 CPU 占满问题，优化正则表达式写法，避免回溯，防止正则运算 CPU 占用 100%。
+ | 原文链接：http://wap.uhmuit.asia/blog/5161592.sHtMl
+
+原标题：安全实践：最小权限原则数据库账号管控
+简介：golang sort 切片排序自定义 less，sort.Slice 切片快速排序，自定义 less 函数实现业务排序。
+ | 原文链接：http://wap.uhmuit.asia/blog/7480628.sHtMl
+
+原标题：golang 系统设计网关错误重试超时处理策略
+简介：react hooks 常见陷阱避坑指南，梳理 React Hooks 高频踩坑点，依赖数组、闭包陷阱，写出稳定组件。
+ | 原文链接：http://wap.uhmuit.asia/blog/2967367.sHtMl
+
+原标题：Docker Compose 一键搭建本地栈
+简介：golang cgo 内存管理 C 与 Go 内存，区分 Go 内存 C 堆内存，防止 cgo 内存泄漏，正确释放 C 内存。
+ | 原文链接：http://wap.uhmuit.asia/blog/8593848.sHtMl
+
+原标题：golang 系统设计消息重试次数间隔策略设置
+简介：golang lru 缓存淘汰算法编写，手写 LRU 缓存淘汰算法，实现本地缓存，淘汰最久未使用数据。
+ | 原文链接：http://wap.uhmuit.asia/blog/4140263.sHtMl
+
+原标题：定时任务周期调度 demo 开发
+简介：golang 子进程超时杀死防止挂住，context 控制子进程超时，超时强制杀掉子进程，避免子进程僵尸。
+ | 原文链接：http://wap.uhmuit.asia/blog/5268171.sHtMl
+
+原标题：golang redis 地理位置 geo 使用
+简介：golang 跨域处理中间件编写，Gin 跨域中间件开发，处理预检 OPTIONS 请求，解决浏览器跨域报错。
+ | 原文链接：http://wap.uhmuit.asia/blog/1605048.sHtMl
+
+原标题：代码格式化工具团队统一风格
+简介：golang kafka 消费者组重平衡避坑，规避消费者组频繁 rebalance，减少消费抖动，保障消息消费稳定性。
+ | 原文链接：http://wap.uhmuit.asia/blog/9591585.sHtMl
+
+原标题：复盘总结：数据库迁移升级风险评估清单
+简介：服务器 Swap 关闭提升响应速度，关闭服务器 Swap 交换分区，避免内存交换磁盘拖慢程序响应性能。
+ | 原文链接：http://wap.uhmuit.asia/blog/7483405.sHtMl
+
+原标题：golang gorm 预加载关联查询优化
+简介：Git 分支管理多人协作实战教程，详解分支创建、合并、冲突处理，适配团队开发场景，规范多人协同代码工作流。
+ | 原文链接：http://wap.uhmuit.asia/blog/2726733.sHtMl
+
+原标题：golang 系统设计 grpc proto 接口设计原则
+简介：OAuth2 第三方登录服务搭建，搭建 OAuth2 服务，支持第三方账号登录，实现授权登录能力。
+ | 原文链接：http://wap.uhmuit.asia/blog/3030171.sHtMl
+
+原标题：架构笔记：批量任务系统架构防重复、断点续跑
+简介：golang tcp 连接泄露排查定位，netstat 查看连接状态，找出未正常关闭连接，定位连接泄漏代码。
+ | 原文链接：http://wap.uhmuit.asia/blog/0313929.sHtMl
+
+原标题：golang csv 读写批量数据处理
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：http://wap.uhmuit.asia/blog/7423525.sHtMl
+
+原标题：缓存过期策略优化防业务故障
+简介：golang cobra 命令行参数配置绑定，cobra 绑定配置文件环境变量命令行参数，多源配置合并。
+ | 原文链接：http://wap.uhmuit.asia/blog/3201704.sHtMl
+
+原标题：golang redis lua 脚本开发调试
+简介：golang 文件句柄耗尽排查处理，统计进程打开文件句柄，找到未关闭文件，修复句柄泄漏问题。
+ | 原文链接：http://wap.uhmuit.asia/blog/6262526.sHtMl
+
+?
